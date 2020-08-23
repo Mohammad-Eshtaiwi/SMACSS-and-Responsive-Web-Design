@@ -1,0 +1,32 @@
+.pos-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+}
+.float-left {
+  float: left;
+}
+
+@media screen and (min-width: 768px) {
+  .float-left-d {
+    float: left;
+  }
+  .grid-2-d .item {
+    width: 50%;
+    height: 200px;
+  }
+  .grid-4-d .item {
+    width: 25%;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .grid-m .item {
+    height: 125px;
+  }
+  .grid-2-m .item {
+    width: 50%;
+    height: 200px;
+  }
+}

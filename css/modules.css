@@ -1,0 +1,42 @@
+.container {
+  width: 960px;
+  max-width: 100%;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+.container > * {
+  border: #111 solid 1px;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.a {
+  width: 100%;
+  height: 100px;
+  background-color: #ccc;
+}
+.b {
+  width: 200px;
+  height: 600px;
+}
+.clear {
+  clear: both;
+  border: none;
+}
+.item {
+  border: 1px #111 solid;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .b {
+    width: 100%;
+    height: 150px;
+  }
+
+  .a {
+    height: 75px;
+  }
+}
