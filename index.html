@@ -12,39 +12,40 @@
       <header>
         <nav class="a relative"><span class="absolute pos-center">a</span></nav>
       </header>
-      <aside class="b float-left-d relative">
-        <span class="absolute pos-center">b</span>
-      </aside>
-      <main class="float-left-d">
-        <section class="grid-2-d grid-m">
-          <div class="float-left-d item relative c">
-            <span class="absolute pos-center">c</span>
-          </div>
-          <div class="float-left-d item relative d">
-            <span class="absolute pos-center">d</span>
-          </div>
-          <div class="clear"></div>
-        </section>
-        <section class="grid-4-d grid-2-m">
-          <div class="float-left item relative e">
-            <span class="absolute pos-center">e</span>
-          </div>
-          <div class="float-left item relative f">
-            <span class="absolute pos-center">f</span>
-          </div>
-          <div class="float-left item relative g">
-            <span class="absolute pos-center">g</span>
-          </div>
-          <div class="float-left item relative h">
-            <span class="absolute pos-center">h</span>
-          </div>
-          <div class="clear"></div>
-        </section>
-      </main>
-      <footer class="relative float-left-d i">
-        <span class="absolute pos-center">i</span>
-      </footer>
-      <div class="clear"></div>
+      <div class="flex flex-colomn-md">
+        <aside class="b relative">
+          <span class="absolute pos-center">b</span>
+        </aside>
+        <div class="flex flex-colomn">
+          <main class="">
+            <section class="flex grid-2-d grid-m flex-colomn-md">
+              <div class="item relative c">
+                <span class="absolute pos-center">c</span>
+              </div>
+              <div class="item relative d">
+                <span class="absolute pos-center">d</span>
+              </div>
+            </section>
+            <section class="flex grid-4-d grid-2-m flex-direction-sm">
+              <div class="item relative e">
+                <span class="absolute pos-center">e</span>
+              </div>
+              <div class="item relative f">
+                <span class="absolute pos-center">f</span>
+              </div>
+              <div class="item relative g">
+                <span class="absolute pos-center">g</span>
+              </div>
+              <div class="item relative h">
+                <span class="absolute pos-center">h</span>
+              </div>
+            </section>
+          </main>
+          <footer class="relative i">
+            <span class="absolute pos-center">i</span>
+          </footer>
+        </div>
+      </div>
     </div>
   </body>
   <script src="./app.js"></script>

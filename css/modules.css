@@ -31,6 +31,8 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+}
+@media screen and (max-width: 767px) {
   .b {
     width: 100%;
     height: 150px;
@@ -38,5 +40,8 @@
 
   .a {
     height: 75px;
+  }
+  .flex-colomn-md {
+    flex-direction: column;
   }
 }

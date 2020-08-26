@@ -1,14 +1,10 @@
 @media screen and (min-width: 768px) {
-  main {
-    width: calc(100% - 200px);
-  }
   footer {
     height: 150px;
-    width: calc(100% - 200px);
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   footer {
     height: 80px;
   }
